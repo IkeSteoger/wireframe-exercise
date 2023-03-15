@@ -1,0 +1,95 @@
+.row {
+    display:flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-row {
+    width: 960px;
+    border: thin solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    margin: 15px;
+}
+
+header {
+    background-color: grey;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+
+#columnRow {
+    justify-content: center;
+}
+
+#columnImg {
+    max-width: 50%;
+    margin: 15px;
+}
+
+#headImg {
+    justify-content: center;
+    margin: 15px;
+}
+
+#textAndImg {
+    justify-content: center;
+    max-width: 480px;
+    max-height: 400px;
+}
+
+#textAndImgP1 {
+    overflow-y: scroll;
+    max-height: 75%;
+    margin: 15px;
+}
+
+#tripleImg {
+    justify-content: center;
+}
+
+#tripleImg img {
+    margin: 15px;
+}
+
+#hoverImg {
+    max-width: 140px;
+}
+
+#hoverButton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 15px;
+}
+
+#hoverButton:hover {
+    background-color: green;
+    transition: 350ms;
+}
+
+#footBkg {
+    background-color: grey;
+    height: 70px;
+}
